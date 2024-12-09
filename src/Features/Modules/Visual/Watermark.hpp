@@ -10,7 +10,7 @@
 class Watermark : public ModuleBase<Watermark> {
 public:
     enum class Style {
-        Solstice,
+        Sigma,
         SevenDays
     };
     EnumSettingT<Style> mStyle = EnumSettingT<Style>("Style", "The style of the watermark.", Style::Solstice, "Solstice", "7 Days");
